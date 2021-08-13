@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Form</title>
+<style >
+    #n1{
+        background:transparent;
+    }
+    #n2{
+        background:transparent;
+    }
+    #n3{
+        background:transparent;
+    }
+    #n4{
+        background:transparent;
+    }
+    #n5{
+        background:transparent;
+    }
+    #magazine{
+        color: black;
+        background: transparent;
+        background-size: auto;
+    }
+  body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY6U8x__KhvaYanEj_PvHWLzKzA6p7WR6NUwOIfs__SpBGEkb9tgpCOxPfScrmR0vf_co&usqp=CAU);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: 40px;
+}
+address { 
+  display:ruby-base-container;
+  font-style: italic;
+} 
+#comments{
+    background: transparent;
+}
+#sub{
+    background: ghostwhite;
+}
+</style>
+</head>
+<body>
+
+    <h1>Contact Form</h1>
+    <form >
+        <p> Name :
+        <input  type="text" name="Name" id="n1" > 
+    </p>
+    Address :
+    <input type="text" name="address" id="n2">
+    <p>
+        City :
+        <input type="text" name="City" id="n3" >
+    </p>
+    <p>
+        State :
+        <input type="text" name="State" id="n4">
+    </p>
+    <p>
+        Zip :
+        <input type="text" name="Zip" id="n5">
+    </p>
+    <p>
+        Magazine :
+        <select  name="magazine_choice" id="magazine">
+            <option value="select below "><strong>Select Below</strong></option>
+            <option value="filmfare_magazine">Filmfare </option>
+            <option value="india_today">India Today </option>
+            <option value="time">TIME </option>
+            <option value="the_economist">The Economist </option>
+            <option value="outlook"> Outlook </option>
+        </select>
+       
+    </p>
+    <p>
+        Subcription :
+        <input type="radio" name="request_type" value="1year"><b>1 Year</b>
+        <input type="radio" name="request_type" value="2year"><b>2 Year</b>
+    </p>
+    <p>
+    Additional Comments:<br>
+        <textarea name="additonal_comments" id="Comments" cols="30" rows="10" >
+        </textarea>
+    </p>
+    <p>
+        <input type="submit" value="Send your order" id="sub">
+    </p>
+    </form>
+</body>
+
+
+
+</html>
